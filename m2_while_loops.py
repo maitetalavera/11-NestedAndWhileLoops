@@ -1,5 +1,5 @@
 ###############################################################################
-# DONE: 1. (3 pts)
+# TODO: 1. (3 pts)
 #
 #   For this _TODO_, write function called count() that takes one parameter:
 #       number  <-- int
@@ -24,15 +24,6 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
-def count(number): 
-    number=range(1,6)
-i=1   
-while i < 6:
-    print(i)
-    i += 1
-
-count(number=5)
 
 ###############################################################################
 # TODO: 2. (5 pts)
