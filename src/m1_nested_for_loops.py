@@ -27,7 +27,7 @@ for x in range(1,3):
 
 
 ###############################################################################
-# TODO: 2. (4 pts)
+# DONE: 2. (4 pts)
 #
 #   For this _TODO_, write a function called many_triangles() that takes two
 #   parameters:
@@ -56,11 +56,12 @@ for x in range(1,3):
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
-def many_triangles(num_of_triangles, size):
-    for x in range(num_of_triangles):
-        print("*")
-        for y in range(1, size + 1):
-             print("*", end=" ")
-    print('')
+def many_triangle(num_of_triangles, size):
+  for y in range(num_of_triangles):
+    for x in range(size): 
+        for x in range(x+1):
+            print("*", end = "")
+        print()
 
-many_triangles(num_of_triangles=2,size=5)
+
+many_triangle(4,6)

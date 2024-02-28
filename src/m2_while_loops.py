@@ -35,7 +35,7 @@ while i < 6:
 count(number=5)
 
 ###############################################################################
-# TODO: 2. (5 pts)
+# DONE: 2. (5 pts)
 #
 #   For this _TODO_, write a function called adder() that will continually ask the use to enter a number (using user input) like so:
 #
@@ -59,11 +59,14 @@ count(number=5)
 ###############################################################################
 
 def adder():
+    total=0
     while True: 
         number= int(input("Please enter a number:"))
         if number != 0:  
-            print (number)
-            number +=1
+            total += number
+        else: 
+            print("You sum is equal to:", total)
+            break
 
 adder()
 
