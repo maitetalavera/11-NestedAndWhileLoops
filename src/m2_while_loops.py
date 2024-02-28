@@ -58,6 +58,18 @@ count(number=5)
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+def adder():
+    while True: 
+        number= int(input("Please enter a number:"))
+        if number != 0:  
+            print (number)
+            number +=1
+
+adder()
+
+
+
+
 ###############################################################################
 # TODO: 3. EXTRA CREDIT (3 pts)
 #
